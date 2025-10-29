@@ -12,7 +12,7 @@ int count=1, num=0, tempcount=1;
         count=tempcount;
     }       
 }
-    cout<<"Longest run : "<<count<<" Consecutive "<<num<<"s";
+    cout<<"Longest run : "<<count<<" Consecutive "<<num<<"s.";
 }
 int main(){
     int size;
@@ -25,4 +25,5 @@ int main(){
     }
     chain(size, arr);
     return 0;
+
 }
